@@ -6,21 +6,21 @@
 pre {
     font-size: 1rem; /* 出力結果も同じ大きさに */
 }
-p{
-    background-color: black;
-    color: white;
-}
 
+#symbol-options {
+    display: block; /* 初期状態で表示するように変更 */
+    margin-top: 10px;
+    margin-left: 10px;
+}
 @media screen and (max-width: 768px) {
     p{
-        background-color: black;
-            color:green;
-        }
+        background-color: white;
+        color: black;
     }
-    
+    }
     @media screen and (max-width: 480px) {
     p{
-        background-color: black;
-            color:red;
+        background-color: white;
+        color: black;
         }
     }
