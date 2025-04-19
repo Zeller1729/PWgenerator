@@ -4,7 +4,6 @@ function toggleSymbolOptions() {
     options.style.display = symbolFlag === "0" ? "block" : "none";
 }
 
-
 function generatePassword() {
     const numbers = '0123456789'.split('');
     const lowercase = 'abcdefghijklmnopqrstuvwxyz'.split('');
